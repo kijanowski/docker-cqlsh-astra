@@ -1,7 +1,7 @@
 # docker-cqlsh-astra
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/kijanowski/docker-cqlsh-astra.svg)](https://hub.docker.com/r/kijanowski/docker-cqlsh-astra/)
-[![license](https://img.shields.io/github/license/kijanowski/docker-cqlsh-astra.svg)](https://github.com/kijanowski/docker-cqlsh-astra/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/kijanowski/docker-cqlsh-astra.svg)](https://github.com/kijanowski/docker-cqlsh-astra/blob/main/LICENSE)
 
 The purpose of `docker-cqlsh-astra` is to run cql commands against [Astra](https://astra.datastax.com).
 
