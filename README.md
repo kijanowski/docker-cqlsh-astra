@@ -11,7 +11,7 @@ It is not an official DataStax image. It does not ship the CQL shell application
 ## Run the image
 
 Before running the image, create an `astra` directory and copy the secure connect bundle zip file. To run scripts
-instead of getting access to the cql shell, add `*.cql` files to the `astra` directory. For more details visit this [blog post]().
+instead of getting access to the cql shell, add `*.cql` files to the `astra` directory. For more details visit this [blog post](https://medium.com/building-the-open-data-stack/back-to-the-root-running-cqlsh-for-astra-db-eaa03b20d266).
 
 ```
 docker run -ti -v $PWD/astra:/astra -e ASTRA_TOKEN=AstraCS:xyz:123 --rm kijanowski/docker-cqlsh-astra
